@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/upece_color_alerta"
+    android:orientation="vertical"
+    tools:context="pe.edu.upc.moviles.alert360.ConfirmacionAlertaActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/label_confirmacion_alerta"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/upece_color_texto_blanco" />
+
+</LinearLayout>

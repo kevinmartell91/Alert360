@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="@color/upece_color">
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margen_sup_inf_views"
+        android:layout_marginTop="30dp"
+        android:text="@string/title_activity_listado_receptores"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/upece_color_texto_blanco" />
+    
+	<ListView android:id="@+id/lstReceptor" 
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"/>
+
+</LinearLayout>

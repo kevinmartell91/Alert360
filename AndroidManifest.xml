@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pe.edu.upc.moviles.alert360"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/upece_sin_barra" >
+        <activity
+            android:name=".InicioSesionActivity"
+            android:label="@string/title_activity_inicio_sesion"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegistroUsuarioActivity"
+            android:label="@string/title_activity_registro_usuario"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ConfirmacionRegistroActivity"
+            android:label="@string/title_activity_confirmacion_registro"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".PantallaInicioActivity"
+            android:label="@string/title_activity_pantalla_inicio"
+            android:screenOrientation="portrait"  
+            android:theme="@style/upece">
+        </activity>
+        <activity
+            android:name=".AcercaDeActivity"
+            android:label="@string/title_activity_acerca_de"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ConfirmacionAlertaActivity"
+            android:label="@string/title_activity_confirmacion_alerta"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".EditarUsuarioActivity"
+            android:label="@string/title_activity_editar_usuario"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <service
+            android:name=".bgservices.AcelerometroService"
+            android:enabled="true" >
+        </service>
+
+        <activity
+            android:name=".RegistroReceptorActivity"
+            android:label="@string/title_activity_registro_receptor"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ListadoReceptoresActivity"
+            android:label="@string/title_activity_listado_receptores"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".bgservices.LocationRedService"
+            android:label="@string/title_activity_confirmacion_alerta"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".EditarReceptorActivity"
+            android:label="@string/title_activity_editar_receptor"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".EditarMensajeActivity"
+            android:label="@string/title_activity_editar_mensaje" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".GuiaInicioActivity"
+            android:label="@string/title_activity_guia_inicio" 
+            android:screenOrientation="portrait"
+            android:theme="@style/upece">
+        </activity>
+    </application>
+
+</manifest>

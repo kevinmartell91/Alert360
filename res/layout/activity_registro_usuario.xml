@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/upece_color"
+    android:orientation="vertical"
+    tools:context="pe.edu.upc.moviles.alert360.RegistroUsuarioActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margen_sup_inf_views"
+        android:text="@string/label_instruccion_registro_usuario"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/upece_color_texto_blanco"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtRegistroNombres"
+        android:layout_width="@dimen/ancho_de_views"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margen_sup_inf_views"
+        android:layout_marginTop="@dimen/margen_sup_inf_views"
+        android:hint="@string/label_nombres"
+        android:inputType="text"
+        android:singleLine="true"
+        android:textColorHint="@color/upece_color_texto_blanco" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtRegistroApellidos"
+        android:layout_width="@dimen/ancho_de_views"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margen_sup_inf_views"
+        android:hint="@string/label_apellidos"
+        android:inputType="text"
+        android:singleLine="true"
+        android:textColorHint="@color/upece_color_texto_blanco" />
+
+    <EditText
+        android:id="@+id/txtUsuario"
+        android:layout_width="@dimen/ancho_de_views"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margen_sup_inf_views"
+        android:hint="@string/label_usuario"
+        android:inputType="text"
+        android:singleLine="true"
+        android:textColorHint="@color/upece_color_texto_blanco" />
+
+    <EditText
+        android:id="@+id/txtContrasena"
+        android:layout_width="@dimen/ancho_de_views"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margen_sup_inf_views"
+        android:hint="@string/label_contrasena"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColorHint="@color/upece_color_texto_blanco" />
+
+    <Button
+        android:id="@+id/btnRegistrarUsuario"
+        style="@style/DisenoBotones"
+        android:layout_width="@dimen/ancho_de_views"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="RegistrarUsuario"
+        android:text="@string/button_registrar_usuario" />
+
+</LinearLayout>

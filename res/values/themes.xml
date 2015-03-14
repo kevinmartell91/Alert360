@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="upece" parent="@style/_upece"/>
+
+  <style name="_upece" parent="android:Theme.Light">
+
+    <!-- <item name="android:background">@colors/upece_color</item> -->
+    <item name="android:editTextStyle">@style/EditTextupece</item>
+
+    <item name="android:textColorHighlight">#99ffffff</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewupece</item>
+
+    <item name="android:checkboxStyle">@style/CheckBoxupece</item>
+
+    <item name="android:radioButtonStyle">@style/RadioButtonupece</item>
+
+    <item name="android:buttonStyle">@style/Buttonupece</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonupece</item>
+
+    <item name="android:spinnerStyle">@style/Spinnerupece</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemupece</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarupece</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarupece</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarupece</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigupece</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallupece</item>
+
+    <item name="android:buttonStyleToggle">@style/Toggleupece</item>
+
+    <item name="android:listViewStyle">@style/ListViewupece</item>
+
+    <item name="android:listViewWhiteStyle">@style/ListViewupece.White</item>
+
+    <item name="android:spinnerItemStyle">@style/SpinnerItemupece</item>
+
+  </style>
+  
+  <!-- SIN BARRA -->
+	<style name="upece_sin_barra" parent="@style/_upece_sin_barra"/>
+
+  <style name="_upece_sin_barra" parent="android:Theme.Light.NoTitleBar">
+
+    <!-- <item name="android:background">@colors/upece_color</item> -->
+    <item name="android:editTextStyle">@style/EditTextupece</item>
+
+    <item name="android:textColorHighlight">#99ffffff</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewupece</item>
+
+    <item name="android:checkboxStyle">@style/CheckBoxupece</item>
+
+    <item name="android:radioButtonStyle">@style/RadioButtonupece</item>
+
+    <item name="android:buttonStyle">@style/Buttonupece</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonupece</item>
+
+    <item name="android:spinnerStyle">@style/Spinnerupece</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemupece</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarupece</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarupece</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarupece</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigupece</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallupece</item>
+
+    <item name="android:buttonStyleToggle">@style/Toggleupece</item>
+
+    <item name="android:listViewStyle">@style/ListViewupece</item>
+
+    <item name="android:listViewWhiteStyle">@style/ListViewupece.White</item>
+
+    <item name="android:spinnerItemStyle">@style/SpinnerItemupece</item>
+
+  </style>
+
+</resources>

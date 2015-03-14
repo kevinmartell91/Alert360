@@ -1,0 +1,63 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="@color/upece_color">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/alertmini" 
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/app_name"/>
+
+    <EditText
+        android:id="@+id/txtUsuarioLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/label_usuario"
+        android:inputType="text"
+        android:maxLength="20"
+        android:layout_margin="@dimen/margen_separacion_parent"
+        style="@style/DisenoTextBox"
+        android:singleLine="true">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtContrasenaLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/label_contrasena"
+        android:inputType="textPassword"
+        android:maxLength="20"
+        style="@style/DisenoTextBox"
+        android:layout_margin="@dimen/margen_separacion_parent"
+        android:singleLine="true"/>
+
+    <Button
+        android:id="@+id/btnIniciarSesion"
+        style="@style/DisenoBotones"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:layout_margin="@dimen/margen_separacion_parent"
+        android:onClick="clickIniciarSesion"
+        android:text="@string/button_iniciar_sesion" />
+
+    <Button
+        android:id="@+id/btnIrARegistro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:onClick="IrARegistro"
+        android:text="@string/button_ir_a_registro" 
+        style="@style/DisenoBotones"
+        android:layout_margin="@dimen/margen_separacion_parent"/>
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="@color/upece_color">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_nombres"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margen_sup_inf_views"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/upece_color_texto_blanco"/>
+
+    <EditText
+        android:id="@+id/txtEditarNombres"
+        android:layout_width="@dimen/ancho_de_views"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:inputType="text"
+        android:singleLine="true"
+        android:layout_marginBottom="@dimen/margen_sup_inf_views"
+        android:textColor="@color/upece_color_texto_blanco" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_apellidos"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_gravity="center_horizontal" 
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/upece_color_texto_blanco"/>
+
+    <EditText
+        android:id="@+id/txtEditarApellidos"
+        android:layout_width="@dimen/ancho_de_views"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:inputType="text"
+        android:singleLine="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margen_sup_inf_views"
+        android:textColor="@color/upece_color_texto_blanco"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_usuario"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_gravity="center_horizontal" 
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/upece_color_texto_blanco"/>
+
+    <EditText
+        android:id="@+id/txtEditarUsuario"
+        android:layout_width="@dimen/ancho_de_views"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="text" 
+        android:singleLine="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margen_sup_inf_views"
+        android:textColor="@color/upece_color_texto_blanco"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_contrasena"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/upece_color_texto_blanco"/>
+
+    <EditText
+        android:id="@+id/txtEditarContrasena"
+        android:layout_width="@dimen/ancho_de_views"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:singleLine="true"
+        android:inputType="textPassword" 
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margen_sup_inf_views"
+        android:textColor="@color/upece_color_texto_blanco"/>
+
+    <Button
+        android:id="@+id/btnActualizarUsuario"
+        android:layout_width="@dimen/ancho_de_views"
+        android:layout_height="wrap_content"
+        android:text="@string/button_actualizar_usuario"
+        android:layout_gravity="center_horizontal" 
+        style="@style/DisenoBotones"/>
+
+</LinearLayout>

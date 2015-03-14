@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/upece_color"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="@dimen/ancho_de_views"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margen_sup_inf_views"
+        android:layout_marginTop="30dp"
+        android:text="@string/lbl_mensaje_editar_instruccion"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/upece_color_texto_blanco" />
+
+    <EditText
+        android:id="@+id/txt_mensaje_editar"
+        android:layout_width="@dimen/ancho_de_views"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margen_sup_inf_views"
+        android:ems="10"
+        android:inputType="text"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnGuardarMensaje"
+        android:layout_width="@dimen/ancho_de_views"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/btn_mensaje_editar_guardar" 
+        android:onClick="GuardarNuevoMensaje"
+        style="@style/DisenoBotones"/>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tab_host_default_height">48dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+	<dimen name="ancho_de_views">250dp</dimen>
+	<dimen name="ancho_de_labels">250dp</dimen>
+	<dimen name="margen_sup_inf_views">20dp</dimen>
+	<dimen name="margen_separacion_parent">20dp</dimen>
+</resources>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MENSAJES GENERALES -->
+    
+    <string name="msg_general_espera">Por favor, espere&#8230;</string>
+    <!-- GUIA RAPIDA -->
+    <string name="title_activity_guia_inicio">Como usar Alert360</string>
+    <string name="msg_guia_rapida_cero">Bienvenido a Alert 360</string>
+    <string name="msg_guia_rapida_uno">Oprima el boton de enviar alerta para avisar a sus contactos</string>
+    <string name="msg_guia_rapida_dos">Haga una cruz con el smartphone para enviar una alerta</string>
+    <string name="msg_guia_rapida_tres">Notifique a sus contactos por SMS o correo</string>
+    <string name="msg_guia_rapida_cuatro">Gracias por visitar la guia rapida de Alert360</string>
+    <!-- TODO Agregar descricion de cada paso -->
+    
+    
+    <!-- MESSAGEBOX -->
+    <string name="msg_campos_vacios">No puede dejar campos vacios</string>
+    <string name="msg_user_pass_incorrectos"> Usuario y/o contraseña incorrectos</string>
+    <string name="msg_solicitar_campos_completos">Por favor, ingrese todos los datos solicitados</string>
+    <string name="msg_alerta_enviada">La alerta ha sido enviada.</string>
+
+    <!-- MESSAGEBOX  POST/PUT - LOGIN Y REGISTRO USUARIO -->
+    <string name="msg_usuario_ya_existe">El usuario ya existe.</string>
+    <string name="msg_usuario_no_existe">El usuario no existe.</string>
+    <string name="msg_usuario_ya_loguado">El usuario ya inicion sesión en otro dispositivo.</string>
+    <string name="msg_usuario_contrasena_incorrecta">Su contraseña es incorrecta.</string>
+    <string name="msg_usuario_login_existoso">Bienvenido</string>
+    <string name="msg_usuario_registro_existoso">Devuelve el código genredo en BD</string>
+    <string name="msg_login_iniciando_sesion">Iniciando sesión</string>
+    <string name="msg_usuario_registrando">Registrando usuario</string>
+    <string name="msg_falla_comunicacion">No se pudo comunicar con el servidor. Compruebe su conexion a Internet</string>
+
+    <!-- MESSAGEBOX PUT - SIGNOUT USUARIO -->
+    <string name="msg_usuario_signout_existoso">Sesión terminada con éxito.</string>
+    <string name="msg_usuario_actualizacion_datos_existosa">Sus datos fueron actualizados de forma exitosa.</string>
+    <string name="msg_usuario_signout_no_existe">El usuario no existe.</string>
+    <string name="msg_cerrando_sesion">Cerrando sesion</string>
+
+    <!-- MESSAGEBOX POST/PUT/DELETE - RECEPTORES -->
+    <string name="msg_receptores_registro_existoso">Su Receptor fue creado con éxito.</string>
+    <string name="msg_receptores_registro_ya_existe">El receptor ya existe.</string>
+    <string name="msg_receptores_actualizacion_existosa">Su receptor fue actualizado con éxito.</string>
+    <string name="msg_receptores_usuario_actualizar_no_exite">Receptor fue actualizado con éxito.</string>
+    <string name="msg_espera">Por favor espere&#8230;</string>
+    <string name="msg_receptores_eliminacion_existosa">Receptor fue eliminado con éxito.</string>
+    <string name="msg_actualizando_receptor">Actualizando receptor</string>
+
+    <!-- MESSAGEBOX POST - ALERTA -->
+    <string name="msg_alerta_registro_existoso">Alerta registrada con exito.</string>
+
+    <!-- MESSAGEBOX DE EXCEPCION PARA TODOS LOS REQUEST ERRONEOS -->
+    <string name="msg_excepcion">No se puedo conectar a los servidores de la aplicación, intente en unos minutos.</string>
+
+    <!-- APP -->
+    <string name="hello_world">Hello world!</string>
+    <string name="app_name">Alert360</string>
+    <string name="service_name">Servicio Acelerometro</string>
+
+    <!-- LOGIN -->
+    <string name="title_activity_inicio_sesion">Alert360</string>
+    <string name="label_usuario">Usuario</string>
+    <string name="label_contrasena">Contraseña</string>
+    <string name="button_iniciar_sesion">Iniciar sesion</string>
+    <string name="button_ir_a_registro">Registrese</string>
+
+    <!-- REGISTRAR USUARIO -->
+    <string name="title_activity_registro_usuario">Registro de usuario</string>
+    <string name="label_nombres">Nombres</string>
+    <string name="label_apellidos">Apellidos</string>
+    <string name="button_registrar_usuario">Registrar</string>
+    <string name="label_instruccion_registro_usuario">Registrate</string>
+
+    <!-- CONFIRMACION REGISTRO -->
+    <string name="title_activity_confirmacion_registro">Registro completo</string>
+    <string name="button_regresar_inicio">Iniciar sesion</string>
+    <string name="label_confirmacion_registro">Su cuenta ha sido creada con exito</string>
+
+    <!-- PANTALLA PRINCIPAL -->
+    <string name="title_activity_pantalla_inicio">Alert360</string>
+    <string name="button_enviar_alerta">Enviar alerta</string>
+	<string name="switch_activar_acelerometro">Enviar alerta por gestos</string>
+	
+    <!-- AJUSTES -->
+    <string name="label_guia_inicio">Guia de inicio</string>
+    <string name="label_info_personal">Actualizar datos</string>
+    <string name="label_alerta_rapida">Alerta rapida</string>
+    <string name="label_administrar_destinatarios">Destinatarios</string>
+    <string name="label_personalizar_mensaje">Mi mensaje</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="label_acerca_de">Acerca de&#8230;</string>
+    <string name="label_cerrar_sesion">Cerrar sesion</string>
+
+    <!-- ACERCA DE -->
+    <string name="title_activity_acerca_de">Acerca de Alert360</string>
+    <string name="label_about_uno">Alert360 es un proyecto de Plataforma de dispositivos moviles de UPC</string>
+    <string name="label_about_dos">Desarrollado por Kevin Martell, Miguel Tomairo y Andree Torres</string>
+    <string name="title_activity_confirmacion_alerta">Confirmacion de alerta</string>
+    <string name="label_logo_upc">Universidad Peruana de Ciencias Aplicadas</string>
+    <string name="label_about_tres">Copyright © Universidad Peruana de Ciencias Aplicadas</string>
+
+    <!-- CONFIRMACION ALERTA -->
+    <string name="label_confirmacion_alerta"> Alerta enviada</string>
+    <string name="title_activity_editar_usuario">Editar info. personal</string>
+
+    <!-- ACTUALIZAR USUARIO -->
+    <string name="button_actualizar_usuario">Actualizar</string>
+    <string name="title_activity_registro_receptor">Registro de Contactos</string>
+    <string name="label_actualizando_usuario">Actualizando usuario</string>
+
+    <!-- REGISTRO RECEPTOR -->
+    <string name="label_registro_receptor_nombre">Nombre:</string>
+    <string name="label_registro_receptor_correo">Correo:</string>
+    <string name="label_registro_receptor_telefonouno">Telefono 1:</string>
+    <string name="label_registro_receptor_telefonodos">Telefono 2:</string>
+    <string name="label_registro_receptor_telefonotres">Telefono 3:</string>
+    <string name="button_registro_receptor">Añadir</string>
+    <string name="button_Actualizar_receptor">Actualizar</string>
+    <string name="button_eliminar_receptor">Eliminar</string>
+    <string name="title_activity_listado_receptores">Mis contactos</string>
+    <string name="title_activity_editar_receptor">Editar destinatario</string>
+    <string name="msg_registrando_receptor">Registrando receptor</string>
+
+    <string name="msg_eliminando_receptor">Eliminando receptor</string>
+    
+    <!-- MI MENSAJE -->
+    <string name="title_activity_editar_mensaje">Mi Mensaje</string>
+    <string name="lbl_mensaje_editar_instruccion">Haga los cambios necesarios y presione en "Guardar mensaje"</string>
+    <string name="btn_mensaje_editar_guardar">Guardar mensaje</string>
+    <string name="msg_mensaje_confirmacion_guardado">Su mensaje ha sido guardado</string>
+    
+    <!-- CARGA DE DATA -->
+    <string name="msg_cargando_data">Cargando datos</string>
+    <string name="msg_contactos_vacio">No tiene registrado contactos</string>
+    <string name="msg_error_carga_sesion">La carga de sus sesion ha fallado</string>
+    <!-- ENVIO DE CORREO -->
+    <string name="msg_correo_asunto">Notificacion de Alert360</string>
+    
+    <!-- ESTADO ACELEROMETRO -->
+    <string name="acel_iniciado">Servicio iniciado</string>
+    <string name="acel_terminado">Servicio terminado</string>
+</resources>

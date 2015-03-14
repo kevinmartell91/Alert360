@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pe.edu.upc.moviles.alert360.AcercaDeActivity"
+    android:orientation="vertical" 
+    android:background="@color/upece_color">
+
+    
+
+	<ImageView
+	    android:id="@+id/imgUPClogo"
+	    android:layout_width="128dp"
+	    android:layout_height="128dp"
+	    android:contentDescription="@string/label_logo_upc"
+	    android:src="@drawable/univlogo" android:layout_gravity="center_horizontal"
+	    android:layout_marginTop="@dimen/margen_sup_inf_views"
+	    android:layout_marginBottom="@dimen/margen_sup_inf_views"/>
+
+	<TextView
+	    android:layout_width="@dimen/ancho_de_labels"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:gravity="center"
+	    android:layout_margin="10dp"
+	    android:layout_marginBottom="@dimen/margen_sup_inf_views"
+	    android:text="@string/label_about_uno"
+	    android:textColor="@color/upece_color_texto_blanco" 
+	    android:textSize="16sp"/>
+	
+	<TextView
+	    android:layout_width="@dimen/ancho_de_labels"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:layout_margin="10dp"
+	    android:text="@string/label_about_dos"
+	    android:textColor="@color/upece_color_texto_blanco"
+	    android:gravity="center"
+	    android:textSize="16sp" />
+
+	<TextView
+	    android:layout_width="@dimen/ancho_de_labels"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:layout_margin="10dp"
+	    android:text="@string/label_about_tres"
+	    android:textColor="@color/upece_color_texto_blanco" 
+	    android:gravity="center"
+	    android:textSize="16sp"/>
+
+</LinearLayout>

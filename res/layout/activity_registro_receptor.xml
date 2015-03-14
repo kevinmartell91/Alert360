@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="@color/upece_color">
+
+    <EditText
+        android:id="@+id/txtRegistroReceptorNombre"
+        android:layout_width="@dimen/ancho_de_views"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margen_sup_inf_views"
+        android:layout_marginTop="@dimen/margen_sup_inf_views"
+        android:ems="10"
+        android:hint="@string/label_registro_receptor_nombre"
+        android:textColorHint="@color/upece_color_texto_blanco" 
+        android:singleLine="true">
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtRegistroReceptorCorreo"
+        android:layout_width="@dimen/ancho_de_views"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/label_registro_receptor_correo"
+        android:inputType="textEmailAddress" 
+        android:layout_marginBottom="@dimen/margen_sup_inf_views"
+        android:textColorHint="@color/upece_color_texto_blanco"
+        android:singleLine="true"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/txtRegistroReceptorTelUno"
+        android:layout_width="@dimen/ancho_de_views"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/label_registro_receptor_telefonouno"
+        android:inputType="phone" 
+        android:layout_marginBottom="@dimen/margen_sup_inf_views"
+        android:textColorHint="@color/upece_color_texto_blanco"
+        android:singleLine="true"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/txtRegistroReceptorTelDos"
+        android:layout_width="@dimen/ancho_de_views"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/label_registro_receptor_telefonodos"
+        android:inputType="phone" 
+        android:layout_marginBottom="@dimen/margen_sup_inf_views"
+        android:textColorHint="@color/upece_color_texto_blanco"
+        android:singleLine="true"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/txtRegistroReceptorTelTres"
+        android:layout_width="@dimen/ancho_de_views"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/label_registro_receptor_telefonotres"
+        android:inputType="phone" 
+        android:layout_marginBottom="@dimen/margen_sup_inf_views"
+        android:textColorHint="@color/upece_color_texto_blanco"
+        android:singleLine="true"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btnRegistroReceptor"
+        android:layout_width="@dimen/ancho_de_views"
+        android:layout_height="wrap_content"
+        android:text="@string/button_registro_receptor"
+        android:onClick="RegistrarReceptor" 
+        android:layout_marginTop="@dimen/margen_sup_inf_views"
+        android:layout_marginBottom="@dimen/margen_sup_inf_views"
+        android:textColorHint="@color/upece_color_texto_blanco"
+        android:layout_gravity="center_horizontal"
+        style="@style/DisenoBotones"/>
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="upece" parent="@style/_upece"/>
+
+  <style name="_upece" parent="android:Theme.Holo.Light">
+
+    <item name="android:editTextBackground">@drawable/upece_edit_text_holo_light</item>
+
+    <item name="android:textColorHighlight">#99ffffff</item>
+    <item name="android:textSelectHandleLeft">@drawable/upece_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/upece_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/upece_text_select_handle_middle</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewupece</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/upece_btn_check_holo_light</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/upece_btn_radio_holo_light</item>
+
+    <item name="android:buttonStyle">@style/Buttonupece</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonupece</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/Spinnerupece</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarupece</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarupece</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarupece</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigupece</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallupece</item>
+
+    <item name="android:buttonStyleToggle">@style/Toggleupece</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/upece_list_selector_holo_light</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/upece_activated_background_holo_light</item>
+
+    <item name="android:fastScrollThumbDrawable">@drawable/upece_fastscroll_thumb_holo</item>
+
+  </style>
+
+  <style name="upece_sin_barra" parent="@style/_upece_sin_barra"/>
+
+  <style name="_upece_sin_barra" parent="android:Theme.Holo.Light.NoActionBar">
+
+    <item name="android:editTextBackground">@drawable/upece_edit_text_holo_light</item>
+
+    <item name="android:textColorHighlight">#99ffffff</item>
+    <item name="android:textSelectHandleLeft">@drawable/upece_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/upece_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/upece_text_select_handle_middle</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewupece</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/upece_btn_check_holo_light</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/upece_btn_radio_holo_light</item>
+
+    <item name="android:buttonStyle">@style/Buttonupece</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonupece</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/Spinnerupece</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarupece</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarupece</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarupece</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigupece</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallupece</item>
+
+    <item name="android:buttonStyleToggle">@style/Toggleupece</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/upece_list_selector_holo_light</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/upece_activated_background_holo_light</item>
+
+    <item name="android:fastScrollThumbDrawable">@drawable/upece_fastscroll_thumb_holo</item>
+
+  </style>
+  
+</resources>

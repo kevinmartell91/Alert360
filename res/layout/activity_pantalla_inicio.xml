@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="@color/upece_color">
+
+    <TextView
+        android:id="@+id/lbl_bienvenida_nombre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        android:layout_marginTop="25dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:textColor="@color/upece_color_texto_blanco"
+        android:layout_marginBottom="@dimen/margen_sup_inf_views"
+        android:textSize="18sp"/>
+    <!-- 
+    <Button
+        android:id="@+id/btnEnviarAlerta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="@string/button_enviar_alerta" />
+     -->
+
+    <ImageButton
+        android:id="@+id/imgBtnEnviarAlerta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/botoncirculo"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/botonalerta" 
+        android:onClick="EnviarAlerta"/>
+
+    <Switch
+        android:id="@+id/switchAcelerometro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/switch_activar_acelerometro" 
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/upece_color_texto_blanco"/>
+
+</LinearLayout>

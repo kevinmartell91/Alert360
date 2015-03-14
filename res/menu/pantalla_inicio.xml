@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pe.edu.upc.moviles.alert360.PantallaInicioActivity" >
+
+    <item
+        android:id="@+id/lbl_guia_inicio"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/label_guia_inicio"/>
+    <item
+        android:id="@+id/lbl_info_usuario"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/label_info_personal"/>
+    <item
+        android:id="@+id/lbl_destinatarios_admin"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/label_administrar_destinatarios"/>
+    
+    <item android:id="@+id/lbl_custom_mensaje"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="@string/label_personalizar_mensaje"/>
+    
+    <item android:id="@+id/lbl_acerca_de"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="@string/label_acerca_de"/>
+    
+    <item android:id="@+id/lbl_cerrar_sesion"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:title="@string/label_cerrar_sesion"/>
+</menu>
